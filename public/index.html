@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notekeep</title>
+    <meta name="title"  content="Everyday daily note-taking with NoteKeep.Organize,access and ease the productivity and reduce the time. Platform for managing your notes.">
+ <meta name="description" content="Daily note keeping">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Notekeep</h1>
+        </header>
+        <main>
+            <div class="add-note-button">Create Notes +</div>
+            <div class="notes-grid">
+                <!-- Notes will be added here dynamically -->
+            </div>
+            <div class="pagination">
+                <!-- Pagination buttons will be added here -->
+            </div>
+        </main>
+    </div>
+
+    <div class="note-modal hidden">
+        <div class="modal-content">
+            <span class="close-button">×</span>
+            <h2><input type="text" id="note-title" placeholder="Title"></h2>
+            <p><input type="text" id="note-tagline" placeholder="Tagline"></p>
+            <textarea id="note-body" placeholder="Write your note here..."></textarea>
+            <button id="save-note">Save</button>
+            <button id="delete-note">Delete</button>
+        </div>
+    </div>
+
+    <script type="module" src="scriptfb.js"></script> 
+
+  <footer>
+        <p> Copyright 2024 Musthaq</p>
+
+  </footer>
+    
+</body>
+</html>
