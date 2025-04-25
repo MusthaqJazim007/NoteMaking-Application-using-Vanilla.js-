@@ -14,13 +14,13 @@ import { getDatabase, ref,set, onValue, push, update, remove } from "https://www
 
 // Firebase Setup
 const firebaseConfig = {
-    apiKey: "AIzaSyD2J-ae5sKMkW4i0vMVt3lKBiIm1d__11M",
+    apiKey: "your API Key ",
     authDomain: "mynotekeep-16d3d.firebaseapp.com",
     databaseURL: "https://mynotekeep-16d3d-default-rtdb.firebaseio.com",
     projectId: "mynotekeep-16d3d",
     storageBucket: "mynotekeep-16d3d.appspot.com",
-    messagingSenderId: "734095970534",
-    appId: "1:734095970534:web:d97553279d6d5f279dab27"
+    messagingSenderId: "Sender ID",
+    appId: "1your app ID"
   };
   const app = initializeApp(firebaseConfig); // Initialize Firebase
   const database = getDatabase(app); // Get the database instance
